@@ -1,0 +1,78 @@
+
+#announcement{
+	background-color: transparent;
+	width: 100%;
+	font-size: 9vh;
+	color: black;
+	line-height: 13vh;
+	height: 13vh;
+	border-radius : 2.5vh; 
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.mes{
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	display: inline-block;
+	font: Helvetica;
+	height: 20vh;
+}
+
+.username{
+	font-family: Helvetica;
+	font-size: 5vh;
+	color: white;
+	position: relative;
+	top: -10vh;
+	padding-left: 5vw;
+}
+.usermes{
+	font-size: 5vh;
+	color: white;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-family: Helvetica;
+}
+
+.userhead_image{
+	height: 15vh;
+	padding-top: 2.5vh;
+	padding-left:2.5vh;
+}
+
+.adminhead_image{
+	height: 10vh;
+	padding-top: 1.5vh;
+	padding-left:1.5vh;
+}
+
+.divide_line{
+	position: absolute;
+	height: 1vh;
+	width: 100%;
+	background-color: white;
+}
+
+#text_length_judge{
+	position: absolute;
+	font-size: 5vh;
+	color: red;
+	visibility: hidden;
+}
+
+#admin_div{
+	position: fixed;
+	background-color:red; 
+}
+
+
+#admin_name{
+	font-family: Helvetica;
+	font-size: 5vh;
+	color: white;
+	position: relative;
+	top: -7vh;
+	padding-left: 5vw;
+}
